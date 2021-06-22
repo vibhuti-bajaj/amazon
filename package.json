@@ -1,0 +1,26 @@
+{
+  "name": "amazon",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibhuti-bajaj/amazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibhuti-bajaj/amazon/issues"
+  },
+  "homepage": "https://github.com/vibhuti-bajaj/amazon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "supervisor": "^0.12.0"
+  }
+}
